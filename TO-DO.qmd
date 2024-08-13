@@ -1,0 +1,27 @@
+---
+title: "TO-DO"
+format: html
+editor: visual
+---
+
+### LONG-TERM
+
+-   [ ] Improve scraper script
+
+### TO-DO
+
+-   [ ] Base pattern to .ics format (see inspiration & markdown file)
+-   [ ] Change delimiting symbol to ensure proper (simple) split
+
+### DOING
+
+-   [ ] Fix data structure for day events ending at midnight
+
+### DONE
+
+-   [x] Fix data structure for day events
+-   [x] Data structure for all day events
+-   [x] Base structure for the data
+    -   [x] Split by a specific pattern and then extract that pattern
+
+### 
