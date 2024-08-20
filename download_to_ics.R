@@ -3,10 +3,11 @@ library(tidyverse)
 
 # Get data                      ======
 # Get the files with a txt filename and read data:
+# Read in your file name, might be different
 list.files(pattern = "outlook-calendar-scraper.txt", full.names = T) -> fname
 
 raw <- 
-  read_delim(fname, delim = ";,", col_names = F) |>
+  read_delim(fname, delim = "¤", col_names = F) |>
   pivot_longer(everything()) |> 
   select(value)
 

@@ -10,7 +10,6 @@ editor: visual
 
 ### TO-DO
 
--   [ ] Change delimiting symbol to ensure proper (simple) split
 -   [ ] Fix data structure for day events ending at midnight
 
 ### DOING
@@ -18,6 +17,7 @@ editor: visual
 
 ### DONE
 
+-   [x] Change delimiting symbol to ensure proper (simple) split
 -   [x] Base pattern to .ics format (see inspiration & markdown file)
 -   [x] Fix data structure for day events
 -   [x] Data structure for all day events

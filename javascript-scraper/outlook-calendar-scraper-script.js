@@ -21,7 +21,7 @@ async function getCalData(){
             // Not sure if the selector ("LqGse content") is the same for every computer, but it is consistent for me.
     
         for (let i=0; i < getCalendarEntries.length; i++) {
-            dData.push( getCalendarEntries[i].getAttribute("aria-label") + ";" )
+            dData.push( getCalendarEntries[i].getAttribute("aria-label") + "¤" ) 
                 // Each information piece is split by ,
                 // Split by ; to separate each entry.
         }
